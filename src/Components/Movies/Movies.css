@@ -1,0 +1,9 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+.movie-cont{
+    width: 50%;
+    padding: 80px;
+}

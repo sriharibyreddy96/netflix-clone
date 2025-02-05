@@ -1,0 +1,23 @@
+footer{
+    background-color: #181818;
+    color: aliceblue;
+    padding: 50px 80px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-content p{
+    font-size: 12px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+a{
+    /* text-decoration: none; */
+    color: white;
+}

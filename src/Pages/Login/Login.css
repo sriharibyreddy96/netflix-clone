@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+   height: 100vh;
+   width: 100%;
+    background-image: url(../../assets/section_1/hero_section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar-content{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.navbar-cont{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 150px;
+    /* height: 100vh; */
+}
+
+.navbar img{
+    width: 200px;
+    height: auto;
+}
+.btns{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.btns button{
+    padding: 11px 20px;
+    background-color: #C11119;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.btns input{
+    width: 100px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+.hero-cont{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   color: white;
+   gap: 10px;
+}
+
+.hero-cont h1{
+    font-size: 50px;
+    margin-top: 150px;
+}
+.hero-cont h3{
+    font-size: 30px;
+}
+.hero-cont h6{
+    font-size: 25px;
+}
+.mail input{
+    padding: 20px 20px;
+    margin-right: 5px;
+    width: 450px;
+    background-color: rgba(0,0,0,0.7);
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.mail button{
+    padding: 20px 20px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.button{
+    display: flex;
+    align-items: center;
+}
+
+/* Section-1 Styling */
+
+.sec-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    gap: 60px;
+    color: white;
+    height: 70vh;
+    padding: 0 150px;
+}
+.sec-1 img{
+    width: 500px;
+    height: auto;
+}
+.sec1-left{
+    width: 100%;
+}
+.sec1-right{
+    width: 100%;
+}
+
+/* FAQ Section styling */
+
+.wrapper h1{
+    text-align: center;
+    margin: 100px 0px;
+    font-size: 50px;
+}
+
+.accordion{
+    margin: 100px 80px;
+}
+.item{
+    margin: 10px;
+}
+
+.qus{
+    /* padding: 20px 100px; */
+    display: flex;
+    margin: 5px 0px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232323;
+}
+.qus:hover{
+    background-color: #3e3e3e;
+    cursor: pointer;
+}
+.qus span{
+    padding-right: 50px;
+}
+.qus h2{
+    padding: 30px 80px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.content p{
+    padding: 40px 80px;
+}
+
+.content{
+    background-color: #232323;
+    color: white;
+    max-height: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.1s cubic-bezier(0,1,0,1);
+}
+.content.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.1s cubic-bezier(1,0,1,0);
+}
+
+.faq-cont{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}

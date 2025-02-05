@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signup{
+    background-image: url('../../assets/section_1/hero_section.jpg');
+    background-repeat: no-repeat;
+    padding: 0 0 100px 0;
+}
+.logo img{
+    width: 350px;
+    height: auto;
+    padding: 10px 50px;
+}
+form{
+    padding: 60px 50px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.signin-form{
+    background-color: rgba(0,0,0,0.8);
+    /* background-color: rgb(13, 9, 11); */
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+.signin-form h1{
+    color: white;
+}
+.signin-form input{
+    padding: 15px;
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+}
+.signin-form button{
+    padding: 20px;
+    background-color: #E50914;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0px 0px 0px;
+    cursor: pointer;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+}
+.checkbox-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+}
+.signup-links{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.signup-links h3{
+    color: #333333;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.signup-links h3 span{
+    color: white;
+    cursor: pointer;
+}
+
+.signup-links a{
+    text-decoration: none;
+}
